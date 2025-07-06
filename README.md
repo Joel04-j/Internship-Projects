@@ -10,16 +10,6 @@ Elastic Beanstalk is a fully managed service provided by AWS that allows easy de
 
 ---
 
-##  Key Features
-
-- No coding required
-- One-click deployment using sample app
-- Automatic setup of servers (EC2), networking, and scaling
-- Publicly accessible URL
-- Beginner-friendly and fast setup
-
----
-
 ##  Services Used
 
 | AWS Service         | Description                                              |
