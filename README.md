@@ -61,7 +61,7 @@ Elastic Beanstalk is a fully managed service provided by AWS that allows easy de
 ![Sample Elastic Beanstalk Welcome Page](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/images/elasticbeanstalk-sample-application
 
 
-
+---
 
 ### Project 2: Server-less Application using AWS Lambda and API Gateway
 
@@ -133,7 +133,7 @@ Deploy the API and copy the Invoke URL
  ## 4 Test the API
 
 
-
+---
 
 ### Project 3:  Static Website Hosting using Amazon S3 and File Upload and Download using Amazon S3
 
