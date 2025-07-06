@@ -1,4 +1,4 @@
-### Projec 1: Website Deployment on AWS
+### Project 1: Website Deployment on AWS
 Website Deployment on AWS using Elastic Beanstalk
 
 This project demonstrates how to deploy a website using **AWS Elastic Beanstalk** with the **Default Sample Application**. It is designed as a beginner-friendly introduction to cloud deployment without writing or uploading custom code.
