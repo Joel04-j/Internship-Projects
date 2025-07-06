@@ -1,4 +1,4 @@
-Projec 1: Website Deployment on AWS
+### Projec 1: Website Deployment on AWS
 Website Deployment on AWS using Elastic Beanstalk
 
 This project demonstrates how to deploy a website using **AWS Elastic Beanstalk** with the **Default Sample Application**. It is designed as a beginner-friendly introduction to cloud deployment without writing or uploading custom code.
@@ -61,7 +61,7 @@ Elastic Beanstalk is a fully managed service provided by AWS that allows easy de
 ![Sample Elastic Beanstalk Welcome Page](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/images/elasticbeanstalk-sample-application
 
 
-# Project 2: Server-less Application using AWS Lambda and API Gateway
+### Project 2: Server-less Application using AWS Lambda and API Gateway
 
 ## Project Overview
 
@@ -94,7 +94,7 @@ AWS Lambda executes code in response to HTTP requests triggered through API Gate
 
 ## Step-by-Step Implementation
 
-### 1 Choose a Use Case
+## 1 Choose a Use Case
 
 We select a basic data processing example: **Text Reversal API**.
 
@@ -102,7 +102,7 @@ The user sends a string via an API request, and the Lambda function responds wit
 
 ---
 
-### 2 Write the Lambda Function (Python)
+## 2 Write the Lambda Function (Python)
 
 1. Go to the AWS Console → **Lambda → Create Function**
 2. Select “Author from scratch”
@@ -116,7 +116,7 @@ def lambda_handler(event, context):
         'body': f"Reversed text: {reversed_text}"
     }
 
-### 3 Set up API Gateway
+## 3 Set up API Gateway
 Navigate to API Gateway → Create API
 
 Choose HTTP API
@@ -128,9 +128,9 @@ Connect the Lambda function as an integration
 Create a route like: GET /reverse
 
 Deploy the API and copy the Invoke URL
- ### 4 Test the API
+ ## 4 Test the API
 
-#Project 3:  Static Website Hosting using Amazon S3 and File Upload and Download using Amazon S3
+### Project 3:  Static Website Hosting using Amazon S3 and File Upload and Download using Amazon S3
 
 This project demonstrates how to host a **static website** using **Amazon S3 (Simple Storage Service)**. A static website contains fixed content like HTML, CSS, and images, and is ideal for personal portfolios, landing pages, or documentation sites.
 
@@ -201,7 +201,7 @@ Amazon S3 allows users to store and retrieve any amount of data. In this task, a
 > A fully functioning static website visible on a public S3 URL, accessible globally.
 
 ---
-#Project 4: Cloud Cost Optimization Analysis
+### Project 4: Cloud Cost Optimization Analysis
 
 ##  Project Overview
 
@@ -235,7 +235,7 @@ The main objective is to understand cloud billing patterns, eliminate waste, and
 
 ##  Step-by-Step Implementation
 
-### 1️ Access Cloud Cost and Usage Reports
+## 1️ Access Cloud Cost and Usage Reports
 
 - Go to **AWS Billing Dashboard**
 - Open **Cost Explorer**
@@ -245,7 +245,7 @@ The main objective is to understand cloud billing patterns, eliminate waste, and
 
 ---
 
-### 2 Identify Cost-Intensive Resources
+## 2 Identify Cost-Intensive Resources
 
 - Sort services by **Unblended Cost**
 - Spot unusually high usage or spikes in billing
@@ -254,7 +254,7 @@ The main objective is to understand cloud billing patterns, eliminate waste, and
 
 ---
 
-### 3 Recommend Cost-Saving Measures
+## 3 Recommend Cost-Saving Measures
 
 Examples of common recommendations:
 - **EC2 Instance Optimization**: Downgrade oversized instances based on CPU/memory usage
@@ -265,7 +265,7 @@ Examples of common recommendations:
 
 ---
 
-### 4 Monitor Cost Savings
+## 4 Monitor Cost Savings
 
 - Set up **AWS Budgets** to monitor cost after optimization
 - Enable **Alerts** to notify when the threshold is reached
