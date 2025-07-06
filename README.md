@@ -3,13 +3,13 @@ Website Deployment on AWS using Elastic Beanstalk
 
 This project demonstrates how to deploy a website using **AWS Elastic Beanstalk** with the **Default Sample Application**. It is designed as a beginner-friendly introduction to cloud deployment without writing or uploading custom code.
 
----
+
 
 ##  Project Overview
 
 Elastic Beanstalk is a fully managed service provided by AWS that allows easy deployment and scaling of web applications. In this project, we use AWS’s built-in sample application to explore and understand the deployment pipeline, environment setup, and infrastructure management.
 
----
+
 
 ##  Services Used
 
@@ -21,7 +21,7 @@ Elastic Beanstalk is a fully managed service provided by AWS that allows easy de
 | **IAM**               | Manages roles and permissions for secure access         |
 | **Amazon Route 53**   | Provides DNS routing to the deployed application (behind the scenes) |
 
----
+
 
 ##  Uses and Applications
 
@@ -31,7 +31,7 @@ Elastic Beanstalk is a fully managed service provided by AWS that allows easy de
 - Preparing for real app deployment with Flask, Node.js, or other platforms
 - Creating portfolio or resume projects showing cloud skills
 
----
+
 
 ##  Deployment Steps
 
@@ -54,7 +54,7 @@ Elastic Beanstalk is a fully managed service provided by AWS that allows easy de
    After a few minutes, AWS provides a public URL.  
    Click the URL to see your live website running the sample application.
 
----
+
 
 ##  Sample Output
 
@@ -62,7 +62,6 @@ Elastic Beanstalk is a fully managed service provided by AWS that allows easy de
 
 
 ---
-
 ### Project 2: Server-less Application using AWS Lambda and API Gateway
 
 ## Project Overview
@@ -71,7 +70,7 @@ This project demonstrates the development of a server-less application using **A
 
 AWS Lambda executes code in response to HTTP requests triggered through API Gateway. This allows you to build a lightweight, cost-efficient, and scalable backend application.
 
----
+
 
 ## Key Features
 
@@ -81,7 +80,7 @@ AWS Lambda executes code in response to HTTP requests triggered through API Gate
 - Fast deployment of backend services
 - Easily extendable for complex microservices
 
----
+
 
 ## Services Used
 
@@ -92,7 +91,7 @@ AWS Lambda executes code in response to HTTP requests triggered through API Gate
 | IAM (Identity Access Management) | Manages secure access to Lambda        |
 | CloudWatch          | Monitors logs and function execution stats        |
 
----
+
 
 ## Step-by-Step Implementation
 
@@ -102,7 +101,7 @@ We select a basic data processing example: **Text Reversal API**.
 
 The user sends a string via an API request, and the Lambda function responds with the reversed string.
 
----
+
 
 ## 2 Write the Lambda Function (Python)
 
@@ -139,13 +138,13 @@ Deploy the API and copy the Invoke URL
 
 This project demonstrates how to host a **static website** using **Amazon S3 (Simple Storage Service)**. A static website contains fixed content like HTML, CSS, and images, and is ideal for personal portfolios, landing pages, or documentation sites.
 
----
+
 
 ## Project Overview
 
 Amazon S3 allows users to store and retrieve any amount of data. In this task, an S3 bucket is configured for **public static website hosting**, enabling users to access the site via a web browser. This is one of the simplest and most cost-effective ways to deploy static web content to the internet.
 
----
+
 
 ## Key Features
 
@@ -155,7 +154,7 @@ Amazon S3 allows users to store and retrieve any amount of data. In this task, a
 - Auto-scalable and highly available  
 - Public access configuration for web hosting
 
----
+
 
 ## AWS Services Used
 
@@ -165,7 +164,7 @@ Amazon S3 allows users to store and retrieve any amount of data. In this task, a
 | **IAM**         | Configures user permissions and roles         |
 | **Amazon CloudFront** (optional) | Provides CDN and HTTPS support |
 
----
+
 
 ## Uses and Applications
 
@@ -175,7 +174,7 @@ Amazon S3 allows users to store and retrieve any amount of data. In this task, a
 - Learning web hosting and AWS fundamentals  
 - Deploying frontend projects (HTML/CSS/JS)
 
----
+
 
 ## Step-by-Step Instructions
 
@@ -199,7 +198,7 @@ Amazon S3 allows users to store and retrieve any amount of data. In this task, a
    - Organize files using folder names inside the bucket  
    - Helps in managing documents or media files
 
----
+
 
 ## Sample Output
 
