@@ -107,9 +107,7 @@ The user sends a string via an API request, and the Lambda function responds wit
 1. Go to the AWS Console → **Lambda → Create Function**
 2. Select “Author from scratch”
 3. Runtime: **Python 3.9**
-4. Paste this code:
 
-```python
 def lambda_handler(event, context):
     input_text = event['queryStringParameters']['text']
     reversed_text = input_text[::-1]
